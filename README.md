@@ -1,7 +1,7 @@
 ## 📖 介绍
 基于LangChain4j自研的一款轻量级心理小助手——知心小愿，目标是为用户提供在线情绪疏导、心理学知识科普和对应的隐私安全保护。系统通过优化RAG流程、多模态调度、模型微调、本地部署等，为用户提供了一个高效、安全、可靠、随时可用的个性化心理支持伙伴。🌟 该项目如果对您有帮助欢迎star 🌟
 
-## 技术栈
+## 🥝 技术栈
 SpringBoot+LangChain4j+RAG+Ollama+DeepSeek+PostgreSQL+Docker
 ## 🐳 前端UI界面
 ### AI 聊天
@@ -26,5 +26,5 @@ SpringBoot+LangChain4j+RAG+Ollama+DeepSeek+PostgreSQL+Docker
  - [ ] LoRA模型微调
  - [ ] 计费
 
-## 📱 联系我
+## 👉 联系我
 如有技术问题或商务合作，可添加我的微信：acyg_0229
