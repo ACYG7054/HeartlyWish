@@ -13,8 +13,8 @@ SpringBoot+LangChain4j+RAG+Ollama+DeepSeek+PostgreSQL+Docker
 
 ## ⏳ 功能
  - [x] SpringBoot整合
- - [ ] 流式对话
- - [ ] System Prompt
+ - [x] 流式对话
+ - [x] System Prompt
  - [ ] Tool工具
  - [ ] 记忆存储（PostgreSQL）
  - [ ] LLM 上下文管理（滑动窗口，摘要算法）

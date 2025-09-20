@@ -4,17 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a31476f-e699-4e0e-b2b2-b2babb31575e" name="Changes" comment="前端ui演示">
+    <list default="true" id="2a31476f-e699-4e0e-b2b2-b2babb31575e" name="Changes" comment="feat: 初始化项目并添加Spring Boot启动类">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/XiaoyuanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xiaoyuan-prompt-template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chat/OllamaChatLocalModelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HeartlyWishApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HeartlyWishApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -29,12 +46,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.OllamaChatLocalModelTest.executor": "Run",
     "Maven.HeartlyWish [clean].executor": "Run",
+    "Maven.Life-Agent [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.HeartlyWishApplication.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/my_project/AI/HeartlyWish",
+    "last_opened_file_path": "D:/my_project/AI/Life-Agent",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -43,10 +67,48 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my_project\AI\HeartlyWish\src\main\resources" />
       <recent name="D:\my_project\AI\HeartlyWish\src\main\resources\picture" />
     </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HeartlyWishApplication">
+    <configuration name="OllamaChatLocalModelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chat.OllamaChatLocalModelTest" />
+      <module name="HeartlyWish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeartlyWishApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="HeartlyWish" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.HeartlyWishApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.HeartlyWishApplication" />
+        <item itemvalue="Application.OllamaChatLocalModelTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,6 +120,9 @@
       <updated>1758276102229</updated>
       <workItem from="1758276103269" duration="4274000" />
       <workItem from="1758295249193" duration="2031000" />
+      <workItem from="1758297444583" duration="391000" />
+      <workItem from="1758338851040" duration="4957000" />
+      <workItem from="1758379214672" duration="7366000" />
     </task>
     <task id="LOCAL-00001" summary="前端ui演示">
       <option name="closed" value="true" />
@@ -91,14 +156,55 @@
       <option name="project" value="LOCAL" />
       <updated>1758294745588</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="init：依赖环境初始化">
+      <option name="closed" value="true" />
+      <created>1758297486708</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758297486708</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: 初始化项目并添加Spring Boot启动类">
+      <option name="closed" value="true" />
+      <created>1758297786810</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758297786810</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="前端ui演示" />
-    <option name="LAST_COMMIT_MESSAGE" value="前端ui演示" />
+    <MESSAGE value="init：依赖环境初始化" />
+    <MESSAGE value="feat: 初始化项目并添加Spring Boot启动类" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 初始化项目并添加Spring Boot启动类" />
   </component>
 </project>
