@@ -21,7 +21,7 @@ public class HeartlyWishApplication {
             System.out.println("  /\\_/\\  ");
             System.out.println(" ( °w° ) ");
             System.out.println("  > ^ <  ");
-            System.out.println("应用启动成功！这里有一只小猫猫送给你~");
+            System.out.println("应用启动成功！");
         }
     }
 }
